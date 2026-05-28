@@ -1218,7 +1218,7 @@ selected_tickers = [t.strip().upper() for t in (input_tickers or "").split(",") 
 
 # ── Telegram signal selection ─────────────────────────────────────────────────
 ALL_SIGNAL_TYPES = sorted([
-    "📈 Low>High","📈 MACD買入","📈 EMA買入","📈 價格趨勢買入","📈 價格趨勢買入(量)",
+    "📈 Low>High","📈 BreakOut_5K,"📉 BreakDown_5K","📈 MACD買入","📈 EMA買入","📈 價格趨勢買入","📈 價格趨勢買入(量)",
     "📈 價格趨勢買入(量%)","📈 普通跳空(上)","📈 突破跳空(上)","📈 持續跳空(上)",
     "📈 衰竭跳空(上)","📈 連續向上買入","📈 SMA50上升趨勢","📈 SMA50_200上升趨勢",
     "📈 新买入信号","📈 RSI-MACD Oversold Crossover","📈 EMA-SMA Uptrend Buy",
